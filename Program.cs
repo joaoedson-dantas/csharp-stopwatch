@@ -7,12 +7,11 @@ namespace Stopwatch
     {
         static void Main(string[] args)
         {
-            Start();
+            Start(5);
         }
 
-        static void Start()
+        static void Start(int time)
         {
-            int time = 10;
             int currentTime = 0;
 
             while (currentTime != time)
